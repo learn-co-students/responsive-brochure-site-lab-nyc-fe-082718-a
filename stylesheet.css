@@ -1,0 +1,53 @@
+section {
+  display: flex;
+  clear: both;
+}
+
+iframe{
+  text-align: center;
+  margin-left: auto;   /* Automatic margin from left */
+  margin-right: auto; /* Automatic margin from right */
+}
+
+body{
+  background-color: #6542f4;
+  font-family: Sans-Serif;
+}
+.column {
+    margin:10px;
+    float: left;
+    width: 31%;
+}
+
+img {
+    float: left;
+    width: 100%;
+}
+
+nav {
+  text-align: center;
+}
+
+/* Clears floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+aside {
+  float: right;
+  clear: both;
+}
+
+footer {
+  text-align: center;
+  clear: both;
+}
+
+form {
+  float: left;
+}
+h1{
+  text-align: center;
+}
